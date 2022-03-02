@@ -12,7 +12,8 @@
 		"strictNullChecks": true,
 		"esModuleInterop": true,
 		"preserveSymlinks": true,
-		"moduleResolution": "node"
+		"moduleResolution": "node",
+		"resolveJsonModule": true
 	},
 	"exclude": ["dist"]
 }
