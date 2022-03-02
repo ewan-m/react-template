@@ -1,19 +1,11 @@
 {
+	"include": ["src/**/*"],
 	"compilerOptions": {
-		"module": "es2015",
-		"target": "es5",
-		"lib": ["es2018", "dom", "WebWorker"],
-		"sourceMap": true,
-		"jsx": "react",
-		"downlevelIteration": true,
-		"noImplicitReturns": true,
-		"noImplicitThis": true,
-		"noImplicitAny": true,
-		"strictNullChecks": true,
-		"esModuleInterop": true,
-		"preserveSymlinks": true,
-		"moduleResolution": "node",
-		"resolveJsonModule": true
+	  "target": "es2021",
+	  "strict": true,
+	  "jsx": "react",
+	  "moduleResolution": "node",
+	  "resolveJsonModule": true,
+	  "allowSyntheticDefaultImports": true
 	},
-	"exclude": ["dist"]
-}
+  }

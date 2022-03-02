@@ -9,6 +9,6 @@ src/**/*.jpeg
 src/**/*.gif
 src/**/*.png
 src/**/*.ico
-src/**/*.svg
+src/**/*.woff
 src/assets/
 package-lock.json
