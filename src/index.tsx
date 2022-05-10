@@ -1,4 +1,4 @@
-import { createRoot } from 'react-dom/client';
+import { createRoot } from "react-dom/client";
 import "./index.scss";
 
 const App = () => {
@@ -33,6 +33,6 @@ const App = () => {
 	);
 };
 
-const container = document.getElementById('app');
+const container = document.getElementById("root");
 const root = createRoot(container!);
 root.render(<App />);
